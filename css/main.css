@@ -100,6 +100,7 @@ body hr {
 
 
 
+
 .top_mnu li {
 	display: inline-block;
 }
@@ -135,10 +136,10 @@ color: #3399cc;
 .top_mnu_button {
     background-color: transparent;
     border: 0 none;
-    color: #3399cc;
+    color: #666;
     float: right;
-    font-size: 50px;
-    padding: 15px 10px;
+    font-size: 40px;
+    padding: 20px 10px;
 }
 
 .button {
@@ -171,9 +172,16 @@ color: #3399cc;
     margin: 0 10px 0 0;
     vertical-align: top;
 }
+.header_info .contacts_wrap {
+    color: #666;
+    display: inline-block;
+    font-family: "BenderBold";
+    font-size: 20px;
+    margin: 24px 10px;
+}
 
 .header_info .descr_wrap {
-    display: inline-block;
+    display: block;
     padding: 12px 0 0 0;
 }
 
@@ -192,6 +200,9 @@ color: #3399cc;
 }
 .header_info .main_text {
 	font-size: 20px;
+}
+.contacts_wrap span {
+color: #3399cc;
 }
 
 
